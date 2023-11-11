@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
 
 :root {
   font-size: 15px;
@@ -9,10 +8,10 @@
   --grayish-blue: hsl(220, 15%, 55%);
   --dark-blue: hsl(218, 44%, 22%);
 
-  --dark-blue-transparent: hsl(218, 44%, 22%, .2);
-  
-  --card-radius: .8rem;
-  --card-padding: .9rem;
+  --dark-blue-transparent: hsl(218, 44%, 22%, 0.2);
+
+  --card-radius: 0.8rem;
+  --card-padding: 0.9rem;
 }
 
 * {
@@ -23,7 +22,7 @@
 }
 
 body {
-  font-family: 'Outfit';
+  font-family: "Outfit";
   background-color: var(--light-gray);
 }
 
@@ -31,11 +30,11 @@ body {
   background-color: var(--white);
   border-radius: var(--card-radius);
   box-shadow: 0 0 2rem var(--dark-blue-transparent);
-  
+
   max-width: 250px;
   margin-block-start: 25svh;
   margin-inline: auto;
-  
+
   padding: var(--card-padding);
 }
 
@@ -50,12 +49,12 @@ body {
 .card__image > img {
   max-width: 100%;
 
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 }
 
 .card > p {
   text-align: center;
-  padding-inline: .65rem;
+  padding-inline: 0.65rem;
 }
 
 .card__title {
@@ -64,9 +63,9 @@ body {
 }
 
 .card__description {
-  font-size: .8rem;
+  font-size: 0.8rem;
   color: var(--grayish-blue);
-  padding-block-end: .5rem;
+  padding-block-end: 0.5rem;
 }
 
 .attribution {
