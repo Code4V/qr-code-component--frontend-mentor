@@ -8,9 +8,9 @@
   --grayish-blue: hsl(220, 15%, 55%);
   --dark-blue: hsl(218, 44%, 22%);
 
-  --dark-blue-transparent: hsl(218, 44%, 22%, 0.15);
+  --dark-blue-transparent: hsl(218, 44%, 22%, 0.1);
 
-  --card-radius: 0.8rem;
+  --card-radius: 1.25rem;
   --card-padding: 0.9rem;
 }
 
@@ -29,9 +29,9 @@ body {
 .card {
   background-color: var(--white);
   border-radius: var(--card-radius);
-  box-shadow: 0 0 2rem var(--dark-blue-transparent);
+  box-shadow: 0 .5rem 3rem var(--dark-blue-transparent);
 
-  max-width: 250px;
+  max-width: 260px;
   margin-block-start: 25svh;
   margin-inline: auto;
 
@@ -50,11 +50,12 @@ body {
   max-width: 100%;
 
   border-radius: 0.5rem;
+  object-fit: contain;
 }
 
 .card > p {
   text-align: center;
-  padding-inline: 0.65rem;
+  padding-inline: 0.7rem;
 }
 
 .card__title {
@@ -80,6 +81,6 @@ body {
 
 @media (min-width: 376px) {
   .card {
-    transform: scale(1.25);
+    transform: scale(1.2);
   }
 }
