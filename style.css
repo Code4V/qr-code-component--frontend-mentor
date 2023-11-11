@@ -8,7 +8,7 @@
   --grayish-blue: hsl(220, 15%, 55%);
   --dark-blue: hsl(218, 44%, 22%);
 
-  --dark-blue-transparent: hsl(218, 44%, 22%, 0.2);
+  --dark-blue-transparent: hsl(218, 44%, 22%, 0.15);
 
   --card-radius: 0.8rem;
   --card-padding: 0.9rem;
@@ -39,7 +39,7 @@ body {
 }
 
 .card > * {
-  margin-block-end: 1rem;
+  margin-block-end: 1.15rem;
 }
 
 .card__image {
@@ -58,8 +58,10 @@ body {
 }
 
 .card__title {
+  color: var(--dark-blue);
   font-size: 1.15rem;
   font-weight: 700;
+
 }
 
 .card__description {
@@ -78,6 +80,6 @@ body {
 
 @media (min-width: 376px) {
   .card {
-    transform: scale(1.2);
+    transform: scale(1.25);
   }
 }
